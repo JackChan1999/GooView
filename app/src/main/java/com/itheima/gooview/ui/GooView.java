@@ -17,12 +17,27 @@ import com.itheima.gooview.util.GeometryUtil;
 import com.itheima.gooview.util.Utils;
 import com.nineoldandroids.animation.ValueAnimator;
 import com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener;
-
 /**
- * 粘性控件
- * @author poplar
- *
- */
+ * ============================================================
+ * Copyright：Google有限公司版权所有 (c) 2017
+ * Author：   陈冠杰
+ * Email：    815712739@qq.com
+ * GitHub：   https://github.com/JackChen1999
+ * 博客：     http://blog.csdn.net/axi295309066
+ * 微博：     AndroidDeveloper
+ * <p>
+ * Project_Name：GooView
+ * Package_Name：PACKAGE_NAME
+ * Version：1.0
+ * time：2016/2/15 16:33
+ * des ：粘性控件
+ * gitVersion：$Rev$
+ * updateAuthor：$Author$
+ * updateDate：$Date$
+ * updateDes：${TODO}
+ * ============================================================
+ **/
+
 public class GooView extends View {
 
 	private static final String TAG = "TAG";
