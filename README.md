@@ -4,6 +4,7 @@
 - 掌握画不规则图形的方法
 
 应用场景：未读提醒，效果图：
+
 <img src="http://img.blog.csdn.net/20170218120957806?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXhpMjk1MzA5MDY2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="250" /> <img src="http://img.blog.csdn.net/20170218121011415?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXhpMjk1MzA5MDY2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="250" /> <img src="http://img.blog.csdn.net/20170218121024431?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXhpMjk1MzA5MDY2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="250" />
 
 # 绘制一帧的效果
