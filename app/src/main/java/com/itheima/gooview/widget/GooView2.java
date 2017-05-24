@@ -1,4 +1,4 @@
-package com.itheima.gooview.ui;
+package com.itheima.gooview.widget;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -19,39 +19,41 @@ import com.nineoldandroids.animation.ValueAnimator;
 import com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener;
 /**
  * ============================================================
- * Copyright：Google有限公司版权所有 (c) 2017
- * Author：   陈冠杰
+ * Copyright：JackChan和他的朋友们有限公司版权所有 (c) 2017
+ * Author：   JackChan
  * Email：    815712739@qq.com
- * GitHub：   https://github.com/JackChen1999
- * 博客：     http://blog.csdn.net/axi295309066
+ * GitHub：   https://github.com/JackChan1999
+ * GitBook：  https://www.gitbook.com/@alleniverson
+ * CSDN博客： http://blog.csdn.net/axi295309066
+ * 个人博客： https://jackchan1999.github.io/
  * 微博：     AndroidDeveloper
  * <p>
  * Project_Name：GooView
- * Package_Name：PACKAGE_NAME
+ * Package_Name：com.itheima.gooview
  * Version：1.0
- * time：2016/2/15 16:33
- * des ：粘性控件
- * gitVersion：$Rev$
- * updateAuthor：$Author$
- * updateDate：$Date$
+ * time：2017/5/24 23:02
+ * des ：自定义粘性控件
+ * gitVersion：2.12.0.windows.1
+ * updateAuthor：AllenIverson
+ * updateDate：2017/5/24 23:02
  * updateDes：${TODO}
  * ============================================================
- **/
+ */
 
-public class GooView extends View {
+public class GooView2 extends View {
 
 	private static final String TAG = "TAG";
 	private Paint mPaint;
 
-	public GooView(Context context) {
+	public GooView2(Context context) {
 		this(context, null);
 	}
 
-	public GooView(Context context, AttributeSet attrs) {
+	public GooView2(Context context, AttributeSet attrs) {
 		this(context, attrs , 0);
 	}
 
-	public GooView(Context context, AttributeSet attrs, int defStyle) {
+	public GooView2(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 		
 		// 做初始化操作
