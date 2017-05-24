@@ -1,4 +1,4 @@
-package com.itheima.gooview.ui;
+package com.jackchan.gooview.ui;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -6,10 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import com.itheima.gooview.R;
-import com.itheima.gooview.adapter.MsgAdapter;
-import com.itheima.gooview.bean.Msg;
-import com.itheima.gooview.widget.RecycleViewDivider;
+import com.jackchan.gooview.R;
+import com.jackchan.gooview.adapter.MsgAdapter;
+import com.jackchan.gooview.bean.Msg;
+import com.jackchan.gooview.widget.RecycleViewDivider;
 
 import java.util.ArrayList;
 import java.util.List;

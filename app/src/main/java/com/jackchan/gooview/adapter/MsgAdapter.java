@@ -1,4 +1,4 @@
-package com.itheima.gooview.adapter;
+package com.jackchan.gooview.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -8,9 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.itheima.gooview.widget.OnGooViewTouchListener;
-import com.itheima.gooview.R;
-import com.itheima.gooview.bean.Msg;
+import com.jackchan.gooview.R;
+import com.jackchan.gooview.bean.Msg;
+import com.jackchan.gooview.widget.OnGooViewTouchListener;
 
 import java.util.List;
 

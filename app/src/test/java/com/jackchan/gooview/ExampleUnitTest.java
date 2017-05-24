@@ -1,4 +1,4 @@
-package com.itheima.gooview;
+package com.jackchan.gooview;
 
 import org.junit.Test;
 

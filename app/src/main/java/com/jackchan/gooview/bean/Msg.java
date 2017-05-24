@@ -1,4 +1,4 @@
-package com.itheima.gooview.bean;
+package com.jackchan.gooview.bean;
 
 /**
  * ============================================================

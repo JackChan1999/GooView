@@ -9,7 +9,7 @@
         <!--android:id="@+id/goo_view"-->
         <!--android:layout_width="match_parent"-->
         <!--android:layout_height="match_parent"/>-->
-    <com.itheima.gooview.widget.MyRlv
+    <com.jackchan.gooview.widget.MyRlv
         android:id="@+id/rlv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

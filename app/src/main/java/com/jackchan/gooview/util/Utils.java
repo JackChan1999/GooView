@@ -1,4 +1,4 @@
-package com.itheima.gooview.util;
+package com.jackchan.gooview.util;
 
 import android.content.Context;
 import android.graphics.Rect;

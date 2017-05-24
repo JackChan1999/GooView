@@ -1,4 +1,4 @@
-package com.itheima.gooview.widget;
+package com.jackchan.gooview.widget;
 
 import android.content.Context;
 import android.graphics.PixelFormat;

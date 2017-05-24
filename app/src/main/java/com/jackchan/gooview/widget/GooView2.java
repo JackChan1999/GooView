@@ -1,4 +1,4 @@
-package com.itheima.gooview.widget;
+package com.jackchan.gooview.widget;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -13,8 +13,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.OvershootInterpolator;
 
-import com.itheima.gooview.util.GeometryUtil;
-import com.itheima.gooview.util.Utils;
+import com.jackchan.gooview.util.GeometryUtil;
+import com.jackchan.gooview.util.Utils;
 import com.nineoldandroids.animation.ValueAnimator;
 import com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener;
 /**
