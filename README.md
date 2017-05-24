@@ -1,5 +1,7 @@
 # GooView粘性控件
 
+<img src="art/gooview.jpg" width="300" />
+
 - 了解几何图形工具的用法
 - 掌握画不规则图形的方法
 
@@ -305,7 +307,7 @@ protected void onDraw(Canvas canvas) {
 ```
 第3-17 行计算四个附着点及控制点坐标
 
-# 1.4 计算固定圆半径
+# 计算固定圆半径
 GooView 重写onSizeChanged()方法，计算状态栏高度
 
 ```java
@@ -347,7 +349,7 @@ public class Utils {
 ```
 
 修改onDraw()方法
- 
+
 ```java
 protected void onDraw(Canvas canvas) {
     super.onDraw(canvas);
@@ -758,26 +760,25 @@ public class MainActivity extends Activity {
 }
 ```
 
-# 关于我
+# 关注我
 
 - Email：<815712739@qq.com>
 - CSDN博客：[Allen Iverson](http://blog.csdn.net/axi295309066)
-- 新浪微博：[AndroidDeveloper](http://weibo.com/u/1848214604?topnav=1&amp;wvr=6&amp;topsug=1&amp;is_all=1)
+- 新浪微博：[AndroidDeveloper](http://weibo.com/u/1848214604?topnav=1&wvr=6&topsug=1&is_all=1)
+- GitHub：[JackChan1999](https://github.com/JackChan1999)
+- GitBook：[alleniverson](https://www.gitbook.com/@alleniverson)
+- 个人博客：[JackChan](https://jackchan1999.github.io/)
 
 # License
 
-    Copyright 2015 AllenIverson
-
-    Copyright 2012 Jake Wharton
-    Copyright 2011 Patrik Åkerfeldt
-    Copyright 2011 Francisco Figueiredo Jr.
+    Copyright 2015 JackChan
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
-
+    
        http://www.apache.org/licenses/LICENSE-2.0
-
+    
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
