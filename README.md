@@ -12,13 +12,12 @@
 <img src="http://img.blog.csdn.net/20170218120957806?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXhpMjk1MzA5MDY2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="250" /> <img src="http://img.blog.csdn.net/20170218121011415?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXhpMjk1MzA5MDY2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="250" /> <img src="http://img.blog.csdn.net/20170218121024431?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXhpMjk1MzA5MDY2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" width="250" />
 
 # 绘制一帧的效果
+
 画一帧粘性控件的步骤分析
 
-1．画一个固定圆
-
-2．画一个拖拽圆
-
-3．画中间连接部分
+1. 画一个固定圆
+2. 画一个拖拽圆
+3. 画中间连接部分
 
 将中间连接部分水平放置，四个角的坐标定为固定值，分别标记上点的编号，矩形中心的点为控件点，画曲线时用
 
@@ -492,12 +491,12 @@ protected void onDraw(Canvas canvas) {
 第39,67 行将mStickRadius 替换成计算出来的半径tempStickRadius
 
 # 事件处理
+
 ## 事件处理的分析
-1．超出最大范围：拖拽圆与固定圆断开，松手后消失
 
-2．超出最大范围：又放回去，恢复
-
-3．没有超出最大范围：松手，回弹动画，恢复
+1. 超出最大范围：拖拽圆与固定圆断开，松手后消失
+2. 超出最大范围：又放回去，恢复
+3. 没有超出最大范围：松手，回弹动画，恢复
 
 ## 事件处理的实现
 修改onTouchEvent()方法
