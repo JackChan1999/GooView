@@ -133,8 +133,8 @@ protected void onDraw(Canvas canvas) {
 ```
 
 第3-14 行替换附着点及控制点
-第30-40 行替换拖拽圆及固定圆的圆心及半径
-将替换后的变量转换成GooView 的成员变量
+
+第30-40 行替换拖拽圆及固定圆的圆心及半径，将替换后的变量转换成GooView 的成员变量
 
 ```java
 // 固定圆圆心
@@ -748,7 +748,9 @@ public boolean onTouchEvent(MotionEvent event) {
 }
 ```
 第35-37 行标记消失时，回调onDisappear()方法
+
 第41-42 行恢复时回调onReset()方法，此时超出过范围，所以参数传入true
+
 第64-73 行添加动画监听，在动画结束时回调onReset()方法，此时没有超出范围，所以参数传入false
 
 修改MainActivity 测试监听回调
