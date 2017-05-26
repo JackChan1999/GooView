@@ -2,6 +2,8 @@
 
 <img src="art/gooview.jpg" width="300" />
 
+![](art/粘性控件1.png)
+
 - 了解几何图形工具的用法
 - 掌握画不规则图形的方法
 
@@ -16,7 +18,7 @@
 3．画中间连接部分
 将中间连接部分水平放置，四个角的坐标定为固定值，分别标记上点的编号，矩形中心的点为控件点，画曲线时用
 
-![](http://img.blog.csdn.net/20170218121253768?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXhpMjk1MzA5MDY2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](art/粘性控件3.png)
 
 自定义一个GooView 继承View
 ```java
@@ -74,9 +76,15 @@ public class MainActivity extends Activity {
 }
 ```
 
+## 贝塞尔曲线
+
+上述代码调用path.quadTo()画曲线，这种曲线叫贝塞尔曲线，有一个起点和终点，还可以有2个或3个控制点，其中控制点是控制曲线的弯曲形状，控制点不同，曲线的弯曲形状就不同。
+
+![](art/Bézier_1_big.gif)	![](art/Bézier_2_big.gif)	![](art/Bézier_3_big.gif)
+
 # 替换变量
 
-![](http://img.blog.csdn.net/20170218121413936?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXhpMjk1MzA5MDY2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](art/粘性控件4.png)
 
 分别给拖拽圆，固定圆的圆心，半径，两个附着点命名，修改GooView 的onDraw()方法
 
@@ -171,11 +179,11 @@ protected void onDraw(Canvas canvas) {
 
 #  计算变量
 
-![](http://img.blog.csdn.net/20170218121516113?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXhpMjk1MzA5MDY2/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](art/粘性控件2.png)
 
 拖拽圆和固定圆的圆心和半径已知，角3 的正弦值为两圆心纵坐标之差比上横坐标之差，则角3 的角度可知，则角1 可知，AB,AC 的长度即可计算出来，mDragPoints[0]的坐标可以计算出来，同理其它三个附着点坐标也可知。mControlPoint 为两圆心连线的中点
 
-几何图形工具
+## 几何图形工具
 
 ```java
 /**
